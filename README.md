@@ -16,7 +16,7 @@ A robust URL shortening service built with Express.js and PostgreSQL. This servi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/varshaa17/giva_urlshortener
+git clone https://github.com//varshaa17//giva_urlshortener
 cd giva_urlshortener
 ```
 
