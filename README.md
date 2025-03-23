@@ -4,26 +4,20 @@ A robust URL shortening service built with Express.js and PostgreSQL. This servi
 
 ## Features
 
-- 🔗 URL Shortening with custom aliases
-- 📊 Usage statistics tracking
-- 🚀 Fast redirections
-- 💾 PostgreSQL persistence
-- 🔍 Duplicate URL detection
-- ✨ Custom alias support
-- 🔒 Input validation and sanitization
-
-## Prerequisites
-
-- Node.js (v14 or higher)
-- PostgreSQL database
-- npm or yarn package manager
+- URL Shortening with custom aliases
+- Usage statistics tracking
+- Fast redirections
+- PostgreSQL persistence
+- Duplicate URL detection
+- Custom alias support
+- Input validation and sanitization
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd url-shortener
+git clone https://github.com/varshaa17/giva_urlshortener
+cd giva_urlshortener
 ```
 
 2. Install dependencies:
@@ -99,21 +93,6 @@ CREATE TABLE urls (
 );
 ```
 
-## Error Handling
 
-The API returns appropriate HTTP status codes:
-- `201`: URL successfully shortened
-- `200`: URL already exists
-- `400`: Invalid URL or request
-- `404`: Short URL not found
-- `409`: Alias already in use
-- `500`: Server error
-
-## Security
-
-- Input validation using express-validator
-- URL format validation
-- SQL injection protection using parameterized queries
-- Rate limiting (TODO)
 
 
